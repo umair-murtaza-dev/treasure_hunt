@@ -33,5 +33,14 @@ The app server should be running on (http://127.0.0.1:7001)
 To enter Rails console, run the following:
 
 ```bash
-script/console
+docker ps
+```
+Get Container ID and replace it with containerID in the following command
+```
+docker exec -it containerID bash
+rails c
+```
+To run rspec, run the following command in bash opened using the docker exec command mentioned above.
+```
+rspec
 ```
