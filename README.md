@@ -24,7 +24,7 @@ To run the application:
 docker-compose up
 ```
 
-The app server should be running on (http://127.0.0.1:7001)
+The app server should be running on (http://localhost:7001)
 
 ## Rails Console
 
@@ -42,3 +42,4 @@ To run rspec, run the following command in bash opened using the docker exec com
 ```
 rspec
 ```
+
