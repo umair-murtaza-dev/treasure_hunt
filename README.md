@@ -14,8 +14,6 @@ docker-compose up --build
 
 ```bash
 docker-compose run app rake db:create
-docker-compose run app rake db:migrate
-docker-compose run app rails db:migrate RAILS_ENV=test
 ```
 
 ## Run application
