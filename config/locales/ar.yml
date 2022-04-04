@@ -1,0 +1,25 @@
+ar:
+  channels:
+    sms: 'SMS'
+    voice: 'Voice'
+    whatsapp: 'Whatsapp'
+  code_types:
+    numeric: 'Numeric'
+    alpha_numeric: 'Alpha Numeric'
+    alphabetic: 'Alphabetic'
+  locales:
+    en: 'English'
+    ar: 'Arabic'
+  verification_statuses:
+    pending: 'Pending'
+    sent: 'Sent'
+    failed: 'Failed'
+    verified: 'Verified'
+  verification_response_statuses:
+    incorrect: 'Incorrect'
+    correct: 'Correct'
+  priorities:
+    default: 'Default'
+    low: 'Low'
+    medium: 'Medium'
+    high: 'High'
